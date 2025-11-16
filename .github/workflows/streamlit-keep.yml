@@ -5,7 +5,7 @@ on:
   repository_dispatch:
     types: [service-down-alert]
   # schedule:
-  #   - cron: '0 */6 * * *' # 每隔6小时运行
+  #   - cron: '0 */12 * * *' # 每隔12小时运行
 
 jobs:
   wakeup:
